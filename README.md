@@ -1,24 +1,10 @@
 # Palworld DDoS Protection & Traffic Monitoring
 
-This repository contains a **DDoS protection** and **traffic monitoring system** specifically designed for the **Palworld** game server. It monitors incoming traffic on **The Port You Set in Config**, detects suspicious traffic patterns, and blocks IPs responsible for generating excessive traffic.
-
-The system is designed to protect the server from DDoS attacks and ensure legitimate players can continue to connect and enjoy the game without interruptions.
-
-## Features
-
-- 🚀 **Real-time monitoring** of UDP traffic on Palworld Port.
-- 🚨 **Traffic threshold detection**: Blocks IPs generating too many packets per second.
-- 📢 **Discord Notifications**: Sends alerts to a Discord channel when an IP is blocked.
-- ✅ **Whitelist Support**: Allows trusted IPs (e.g., server admin) to bypass blocking.
-- 📝 **Log Generation**: Keeps track of blocked traffic and generates log files for review.
-
-## Prerequisites
-
 Before running this script, make sure you have the following installed:
 
-Python 3.x** (preferably Python 3.6+)
-Scapy** library for packet sniffing
-Npcap** for capturing network packets on Windows
+- Python 3.x (preferably Python 3.6+)
+- Scapy** library for packet sniffing
+- Npcap** for capturing network packets on Windows
 
 # To install the required dependencies, run:
 
@@ -27,7 +13,7 @@ pip install -r requirements.txt
 
 Installation
 Step 1: Download Npcap
-To capture network packets on Windows, you need to install Npcap:
+To capture network packets on Windows, you need to install Npcap: https://nmap.org/npcap/
 
 Download Npcap from Npcap's official website.
 
