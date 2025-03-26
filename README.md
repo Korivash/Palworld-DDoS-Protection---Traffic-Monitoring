@@ -1,12 +1,12 @@
 # Palworld DDoS Protection & Traffic Monitoring
 
-This repository contains a **DDoS protection** and **traffic monitoring system** specifically designed for the **Palworld** game server. It monitors incoming traffic on **UDP port 2025**, detects suspicious traffic patterns, and blocks IPs responsible for generating excessive traffic.
+This repository contains a **DDoS protection** and **traffic monitoring system** specifically designed for the **Palworld** game server. It monitors incoming traffic on **The Port You Set in Config**, detects suspicious traffic patterns, and blocks IPs responsible for generating excessive traffic.
 
 The system is designed to protect the server from DDoS attacks and ensure legitimate players can continue to connect and enjoy the game without interruptions.
 
 ## Features
 
-- 🚀 **Real-time monitoring** of UDP traffic on port 2025.
+- 🚀 **Real-time monitoring** of UDP traffic on Palworld Port.
 - 🚨 **Traffic threshold detection**: Blocks IPs generating too many packets per second.
 - 📢 **Discord Notifications**: Sends alerts to a Discord channel when an IP is blocked.
 - ✅ **Whitelist Support**: Allows trusted IPs (e.g., server admin) to bypass blocking.
