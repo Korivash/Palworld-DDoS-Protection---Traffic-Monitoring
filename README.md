@@ -42,13 +42,13 @@ Once the configuration is updated, you can run the script:
 python main.py
 This will start monitoring traffic and block suspicious IPs that exceed the packet threshold.
 
-Logs
+# Logs
 The script generates log files in the logs/ directory. Each time an IP is blocked, a new log entry is created. This will help you track suspicious activity and ensure that legitimate players are not incorrectly blocked.
 
-Discord Notifications
+# Discord Notifications
 When an IP is blocked due to excessive traffic, the script sends a real-time notification to your designated Discord channel. This allows you to stay up-to-date with any potential attacks and take quick action if necessary.
 
-#Troubleshooting
+# Troubleshooting
 If players report connection issues: Check if their IP was mistakenly flagged by reviewing the logs or adjusting the traffic threshold.
 
 Using a proxy or VPN: Ensure that the traffic from your proxy/VPN is not being flagged as suspicious.
